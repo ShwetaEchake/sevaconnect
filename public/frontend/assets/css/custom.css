@@ -1,0 +1,71 @@
+.contact-main.volunteer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background: #f5f7fa;
+    padding: 180px 20px 100px;
+}
+
+.contact__form {
+    width: 100%;
+    max-width: 800px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 2px solid #ddd;
+}
+
+.volunteer__form h4 {
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-single {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-single input,
+.input-single select,
+.input-single textarea {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.input-single i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.form-cta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.swal-text {
+    margin: 25px 0 !important;
+    font-size: 12px;
+}
+
+.swal-title {
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 600;
+    text-transform: none;
+    position: relative;
+    display: block;
+    padding: 13px 16px;
+    font-size: 17px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0;
+}
